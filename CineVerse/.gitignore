@@ -1,0 +1,15 @@
+build/
+cmake-build-*/
+.vscode/
+.idea/
+*.exe
+*.o
+*.obj
+*.tmp
+cineverse_listas.txt
+build-windows/
+perfil_cv2.txt
+perfil_cv2.txt.bak
+
+build-qt/
+build-gui/

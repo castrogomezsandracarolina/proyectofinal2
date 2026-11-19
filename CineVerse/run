@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+cmake -S . -B build -DCINEVERSE_CON_QT=OFF
+cmake --build build
+./build/CineVerse "${1:-data/wiki_movie_plots_deduped.csv}"
